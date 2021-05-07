@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "d83c3b04-9455-43d6-a404-cc4314ed641b",
+		"name": "Vodafone_Car_Factory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Car Type",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\" : \"sedan\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produce",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produce"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Car Type Mercedes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\" : \"mercedes\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produce",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produce"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Register bean while server is running",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"beanName\" : \"mercedes\",\r\n    \"beanClassName\" : \"Mercedes\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/regbean",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"regbean"
+					],
+					"query": [
+						{
+							"key": "content-type",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

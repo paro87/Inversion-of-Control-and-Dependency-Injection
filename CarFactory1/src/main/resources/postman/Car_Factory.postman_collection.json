@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "d83c3b04-9455-43d6-a404-cc4314ed641b",
+		"name": "Vodafone_Car_Factory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Car Type",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\" : \"sedan\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produce",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produce"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Car Type Exception",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\" : \"bmw\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produce",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produce"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		}
+	]
+}

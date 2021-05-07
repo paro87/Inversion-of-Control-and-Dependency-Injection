@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä­ç¯
+v	java:S116"\Rename this field "INCORRECT_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤—Ã›ýÿÿÿÿ
+w	java:S116"VRename this field "BAD_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù£»üÿÿÿÿÿ8ÓõÜœ”/
+Q
+java:S1068"/Remove this unused "BAD_REQUEST" private field.(Ù£»üÿÿÿÿÿ8êõÜœ”/

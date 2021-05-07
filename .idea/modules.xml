@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CarFactory1/CarFactory1.iml" filepath="$PROJECT_DIR$/CarFactory1/CarFactory1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarFactory2/CarFactory2.iml" filepath="$PROJECT_DIR$/CarFactory2/CarFactory2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarFactory3/CarFactory3.iml" filepath="$PROJECT_DIR$/CarFactory3/CarFactory3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Garage/Garage.iml" filepath="$PROJECT_DIR$/Garage/Garage.iml" />
+    </modules>
+  </component>
+</project>

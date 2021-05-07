@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "bba8d5f5-294e-45dc-961a-6fffe43eadbe",
+		"name": "Garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Garage park Black Car",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"park 34-SO-1988 Black Car\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage park Red Truck",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"park 34-BO-1987 Red Truck\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage park Blue Jeep",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"park 34-VO-2018 Blue Jeep\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage park Black Truck",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"park 34-HBO-2020 Black Truck\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage leave 3rd Vehichle",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"leave 3\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage park White Car",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"park 34-LO-2000 White Car\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Garage status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderRequest\" : \"status\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/execute",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"execute"
+					]
+				},
+				"description": "Sends car type as a String value"
+			},
+			"response": []
+		}
+	]
+}
